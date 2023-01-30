@@ -1,0 +1,102 @@
+
+.header {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.left-section {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.logo {
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.middle-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+}
+.right-section {
+    display: flex;
+    align-items:flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:300px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.figma {
+    height: 30px;
+}
+
+.miro {
+    height:30px;
+}
+
+.vsc {
+    height:30px;
+}
+
+.codepen {
+    height:30px;
+}
+
+.adobe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flexContainer2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+
+}
+
+.center {
+
+}
+
+.right {
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .workGrid {
+        display: grid;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3";
+    }
+}
