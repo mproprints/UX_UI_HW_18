@@ -14,7 +14,12 @@
     <div class="header">
         <div class="left-section"> <img class="logo" img src="/images/logo.png" alt="logo"></div>
         <div class="middle-section">
-            <p>About Projects Let's Collaborate</p>
+            <!-- <p>About Projects Let's Collaborate</p> Note: use an unordered list here -->
+            <ul class="navbar">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Let's Collaborate</a></li>
+            </ul>
         </div>
         <div class="right-section">
             <p>in</p>
@@ -34,71 +39,119 @@
         <section class="flexContainer2">
             <div class="left">
                 <h3>Area of expertise</h3>
-                <p>interface Design</p>
-                <p>User Experienec</p>
-                <p>Web Design</p>
-                <p>No-Code Development</p>
-                <p>Product Design</p>
-                
-                
-            
+                <ul>
+                    <li>interface Design</li>
+                    <li>User Experienec</li>
+                    <li>Web Design</li>
+                    <li>No-Code Development</li>
+                    <li>Product Design</li>
+                    <li>Branding and Identity</li>
+                    <li>Print and Production</li>
+                    <li>Graphic Design</li>
+                </ul>
             </div>
-            <div class="middle"><img class="headshot" src="/images/CodePen_logo.png"><button class="button">let's
-                collaborate</button></div>
-                <div class="right">
-                    <button>About me</button>
-                    <p id="aboutme">My name is Maria, I am a Product Designer. I bring an artistic perspective and creative problem-solving
-                        approach to create products
-                        and experiences people love to use.
-                        I approach every design problem with persistence, curiosity and meticulous attention to details.
-                        With a background in printing and production, experience as a web and digital designer, a
-                        degree in graphic design and UX/UI certificate,
-                        I am competent in all aspects of the design process.</p>
-                    </div>
-                </section>
+            <div class="middle">
+                <img class="headshot" src="images/maria.jpg"><button class="button">let's collaborate</button>
+            </div>
+            <div class="right">
+                <p>About me</p>
+                <p>My name is Maria, I am a Product Designer. I bring an artistic perspective and creative problem-solving
+                    approach to create products
+                    and experiences people love to use.
+                    I approach every design problem with persistence, curiosity and meticulous attention to details.
+                    With a background in printing and production, experience as a web and digital designer, a
+                    degree in graphic design and UX/UI certificate,
+                    I am competent in all aspects of the design process.</p>
+            </div>
+        </section>
                 
                 <!-- My Work section constructed using CSS Grid -->
-                <section class="myProjects">
-                        <h1>Projects</h1>
-                        <div class="workGrid">
-                                <img class="travelapp" src="/images/travel save app vover.png" height="600px">
-                                <h4>
-                                    Travel Save App
-                                </h4>
-                                <p>
-                                    UX/UI Design-Product Design
-                                </p>
-                                <button>
-                                    View More
-                                </button>
-                            </div>
-                            <div class="workGrid2">
-                                <img class="canadcouncil" src="/images/canada council.png" height="600px">
-                                <h4>
-                                    Canada Council For The Arts
-                                </h4>
-                                <p>
-                                    UX/UI Design - Website Redesign
-                                </p>
-                                <button>
-                                    View More
-                                </button>
-                            </div>
-                            <div class="workGrid3">
-                                <img class="discoveryhouse" src="/images/discovery house.png" height="600px">
-                                <h4>
-                                    Discovery House
-                                </h4>
-                                <p>
-                                    UX/UI Design - Website Design
-                                </p>
-                                <button>
-                                    View More
-                                </button>
-                            </div>
-                        </div>
-                        <h3>View all projects.</h3>
-                    </section>
+
+                <!-- Jonathan Gravato - This section needs to be organized a bit more -->
+
+        <section class="myProjects">
+            <h1>Projects</h1>
+            <div class="grid">
+                <div class="item1">
+                    <div class="item-image">
+                        <!-- This image needs to go in the item1 div. -->
+                        <img src="/images/travel save app vover.png">
+                    </div>
+                    <div class="item-content">
+                        <h4>
+                            Travel Save App
+                        </h4>
+                        <p>
+                            UX/UI Design-Product Design
+                        </p>
+                        <button>
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+
+<!-- Example of how this section needs to be constructed...
+
+                <div class="item2">
+                    <div class="item-image">
+                        <img src="/images/canada council.png">
+                    </div>
+                    <div class="item-content">
+                        <h4>
+                            Canada Council For The Arts
+                        </h4>
+                        <p>
+                            UX/UI Design - Website Redesign
+                        </p>
+                        <button>
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+ -->
+
+                
+                <div class="item2">
+                    <div class="item-image">
+                        <img src="/images/canada council.png">
+                    </div>
+                    <div class="item-content">
+                        <h4>
+                            Canada Council For The Arts
+                        </h4>
+                        <p>
+                            UX/UI Design - Website Redesign
+                        </p>
+                        <button>
+                            View More
+                        </button>
+                    </div>
+                </div>
+
+                <div class="item3">
+                    <div class="item-content">
+                        <img src="/images/discovery house.png">
+                    </div>
+                    <div class="item-content">
+                        <h4>
+                            Discovery House
+                        </h4>
+                        <p>
+                            UX/UI Design - Website Design
+                        </p>
+                        <button>
+                            View More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <h3>View all projects.</h3>
+        </section>
+
+        <!-- end project section -->
+
 </body>
 
 </html>
