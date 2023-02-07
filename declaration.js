@@ -1,10 +1,7 @@
 
 
-$(document).ready(() => {
-
-
-
-    $('div').on('click', () => {
-        $('aboutme').toggle();
+$(right).ready(function(){
+    $("button").click(function(){
+      $("p").toggle();
     });
-});
+  });
